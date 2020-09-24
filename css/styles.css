@@ -3,15 +3,50 @@
 }
 
 body {
-    background-color: maroon;
+    background-color: #601344;
     color: white;
     font-family: sans-serif;
     line-height: 1.5em;
+    margin: 0;
 
+}
+
+h1, h2, h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+header {
+    background: #1a1d1f;
+    padding: 20px;
 }
 
 h1 {
     color: white;
+    text-align: center;
+    border: 1px dotted #676c71;
+    padding: 20px;
+    border-radius: 50px;
+    
+    
+}
+
+h2 {
+    color: hotpink;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    text-align: center;
 }
 
 .portrait {
@@ -19,22 +54,62 @@ h1 {
     width: 50%;
     margin: 0 auto;
     display: block;
+    box-shadow: 0px 0px 71px -15px rgba(0,0,0,0.75);
 }
 
 a {
-    color: maroon;
-    background: white;
-    padding: 5px;
-    border-radius: 10px;
-
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px 0 0;
+    border-bottom: 1px hotpink dotted;
 }
 
 nav {
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 20px;
+ display: flex;
+ justify-content: flex-start;
+ margin-bottom: 20px;
 }
 
-nav a {
-    text-decoration: none;
+
+
+.social_card {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 71px -15px rgba(0,0,0,0.45);
+
+
+}
+
+.social_card img {
+width: 35%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    border-bottom: 2px dotted hotpink;
+    padding: 5px 0;
+}
+
+footer {
+    background: #2d3033;
+    padding: 20px;
+    background: #1a1d1f;
+
+
+}
+
+strong {
+    color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
 }
