@@ -1,7 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: maroon;
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.5em;
+
 }
 
 h1 {
     color: white;
+}
+
+.portrait {
+    border-radius: 100px;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+a {
+    color: maroon;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+nav {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
 }
