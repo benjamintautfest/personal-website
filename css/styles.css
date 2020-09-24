@@ -74,6 +74,7 @@ footer {
     background: #2d3033;
     padding: 20px;
     background: #1a1d1f;
+    text-align: center;
 }
 
 ul{
@@ -99,7 +100,6 @@ li {
 
 .social_card {
     background-color: white;
-    margin-top: 20px;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -122,6 +122,27 @@ width: 35%;
     color: grey;
     font-weight: bold;
 }
+
+.impressum {
+    margin-left: auto;
+}
+
+.contact {
+  text-align: center;
+
+}
+
+.contact a {
+    background: #1a1d1f;
+    padding: 10px;
+    border-bottom: 1px hotpink dotted;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+
 
 
 
