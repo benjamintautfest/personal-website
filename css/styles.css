@@ -166,7 +166,6 @@ a:hover {
 
 .skills {
   display: flex;
-  gap: 5px;
   flex-wrap: wrap;
 }
 
@@ -174,6 +173,7 @@ a:hover {
   border-bottom: 1px hotpink dotted;
   background: #1a1d1f;
   padding: 10px;
+  margin: 5px;
 }
 
 .social_card img {
