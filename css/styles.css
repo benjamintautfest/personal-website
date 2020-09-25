@@ -27,7 +27,6 @@ h1 {
 
 h2 {
     color: hotpink;
-    text-align: center;
     margin-top: 50px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
@@ -49,6 +48,11 @@ strong {
     color: hotpink;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
+}
+
+em {
+    font-style: normal;
+    font-weigt:normal;
 }
 
 /*=================== Layout ========================*/
@@ -115,6 +119,10 @@ a:hover {
 
    h2 {
        text-align: left;
+       display: box;
+   }
+   .links {
+       display: flex;
    }
 }
 
@@ -160,8 +168,7 @@ width: 35%;
 }
 
 .contact {
-  text-align: center;
-
+display: flex;
 }
 
 .contact a {
@@ -169,6 +176,8 @@ width: 35%;
     padding: 10px;
     border-bottom: 1px hotpink dotted;
 }
+
+
 
 
 
