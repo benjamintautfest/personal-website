@@ -163,6 +163,10 @@ a:hover {
   box-shadow: 0px 0px 71px -15px rgba(0, 0, 0, 0.45);
 }
 
+.social_card:hover {
+  opacity: 0.7;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;
