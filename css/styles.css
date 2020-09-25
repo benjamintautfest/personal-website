@@ -88,15 +88,34 @@ li {
     padding: 5px 0;
 }
 
+
+a:hover {
+    color: hotpink;
+}
+
 /*======================= Classes ===================*/
 
 .portrait {
     width: 180px;
-    margin: 0 auto 30px auto;
+    margin: 40px auto 30px auto;
     display: block;
     box-shadow: 0px 0px 71px -15px rgba(0,0,0,0.75);
     transform: rotate(-10deg);
     border: 2px white solid;
+}
+
+@media (min-width: 600px){
+   .intro{
+       display: flex;
+       grid-gap: 80px;
+   }
+   .intro p {
+       text-align: left;
+   }
+
+   h2 {
+       text-align: left;
+   }
 }
 
 .social_card {
@@ -151,9 +170,6 @@ width: 35%;
     border-bottom: 1px hotpink dotted;
 }
 
-a:hover {
-    color: hotpink;
-}
 
 
 
