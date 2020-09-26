@@ -152,6 +152,18 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
+    margin-top: 60px;
+  }
+
+  .contact_links {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-top: 1px dotted hotpink;
+    border-bottom: 1px dotted hotpink;
+  }
+
+  .links {
+    order: 1;
   }
 }
 
