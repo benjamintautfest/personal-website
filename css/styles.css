@@ -201,6 +201,7 @@ a:hover {
 
 .contact {
   display: flex;
+  padding-left: 5px;
 }
 
 .pinklink {
@@ -209,4 +210,11 @@ a:hover {
 
 .contact_links {
   margin-bottom: -50px;
+}
+
+.material-icons {
+  position: relative;
+  top: 5px;
+  width: 30px;
+  color: hotpink;
 }
