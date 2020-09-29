@@ -7,7 +7,7 @@ body {
   color: white;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
-  line-height: 1.5em;
+  line-height: 1.5;
   margin: 0;
   font-size: 112.5%;
 }
@@ -19,6 +19,7 @@ h1 {
   padding: 10px 0 10px 5px;
   font-weight: 300;
   font-size: 150%;
+  line-height: 1;
 }
 
 h2 {
@@ -152,7 +153,8 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
-    margin-top: 60px;
+    position: relative;
+    top: -30px;
   }
 
   .contact_links {
@@ -229,4 +231,13 @@ a:hover {
   top: 5px;
   width: 30px;
   color: hotpink;
+}
+
+.links {
+  margin-bottom: 20px;
+  backgroudn: red;
+}
+
+.bio {
+  margin-top: 80px;
 }
