@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/benjamintautfest/personal-website/issues"
   },
-  "homepage": "https://github.com/benjamintautfest/personal-website#readme"
+  "homepage": "https://github.com/benjamintautfest/personal-website#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }
